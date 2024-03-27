@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Celular</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .screen {
+        width: 300px;
+        height: 500px;
+        background-color: black;
+        border-radius: 20px;
+        margin: 50px auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .speaker {
+        width: 50px;
+        height: 5px;
+        background-color: #333;
+        border-radius: 10px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .camera {
+        width: 20px;
+        height: 20px;
+        background-color: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .home-button {
+        width: 60px;
+        height: 10px;
+        background-color: #333;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
+</head>
+<body>
+    <div class="screen">
+        <div class="speaker"></div>
+        <div class="camera"></div>
+        <div class="home-button"></div>
+    </div>
+</body>
+</html>
